@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height : 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    position: relative;
+}
+#logo{
+    margin: 3px 28px;
+}
+#logo img{
+    margin: 3px 3px;
+    height: 60px;
+    border-radius: 67px;
+}
+#navbar ul{
+    display: flex;
+    
+}
+/* #navbar{
+    position: relative;
+} */
+#navbar::before{
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: black;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.4;
+    
+}
+#navbar ul li{
+    /* color: antiquewhite; */
+    list-style: none;
+    font-size: 1.3em;
+}
+#navbar ul li a{
+    color: antiquewhite;
+    display: block;
+    padding: 3px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+    justify-content: center ;
+    align-items: center;
+    height: 365px;
+}
+#home::before{
+    top: 0px;
+    left: 0px;
+    height: 66.7%;
+    width: 100%;
+    content: "";
+    background:url('../food1.jpg') no-repeat repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.7;
+}
+.book{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#home h1{
+    color: #1b1e21de;
+    text-align: center;
+}
+#home p{
+    color: #121314de;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 6px 20px;
+    background-color: rgb(223 124 124 / 63%);
+    color: antiquewhite;
+    border-radius: 16px;
+    border: 2px solid rgb(248, 58, 58);
+    margin: 17px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.book1{
+    font-size: 2.8rem;
+    padding: 12px;
+    /* display: flex; */
+    text-align: center;    
+}
+.book2{
+    text-align: center;
+    padding: 9px 6px;
+    font-size: 2rem;
+}
+#services{
+   
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    margin: 0px 45px;
+    /* display: inherit; */
+    border-radius: 23px;
+    border: 2px solid red;
+    height: 275px;
+    /* background-color: chocolate; */
+    background-color: #f1c06a63;
+}
+#services .box img{
+    height: 111px;
+    display: block;
+    margin: auto;
+    /* width: 112px;
+    border-radius: 60px;
+    opacity: 2; */
+}
+ .text{
+    text-align: center;
+    /* padding: 3px 6px; */
+}
+#client img{
+    height: 124px;
+}
+#client::before{
+    background: url('../bg.jpg');
+    opacity: 1.5;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+}
+#client2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#client{
+    height: 344px;
+    position: relative;
+}
+.client1{
+    text-align: center;
+    color: #c17918;
+}
+.items{
+    padding: 34px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    background: url('../contact.jpg') no-repeat repeat center center/cover;
+    opacity: 1.5;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+#CL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+    .contact1{
+        text-align: center;
+    }
+    #CL textarea{
+        width: 100%;
+        padding: o.5rem;
+        height: 122px;
+        border-radius: 10px;
+        
+}
+.home1::before{
+    background: url('../service.jpg');
+    opacity: .5;
+    height: 99%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 505px;
+}

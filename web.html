@@ -4,33 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <style>
-        .container{
-            display: flex;
-        }
-        .card{
-            padding: 23px 12px;
-            margin: 23px 12px;
-            border: 2px solid red;
-            background-color: chocolate;
-            box-shadow: 7px 10px gray;
+        *{
+            font-family: 'Caveat', cursive;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-       <div class="card" id="card-1">
-        <h2>card1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus blanditiis iusto fugit corrupti cum? Sunt nostrum fuga minus eligendi doloribus voluptas temporibus, deleniti sequi perferendis ut incidunt non voluptatum quisquam ullam sint recusandae quaerat!</p>
+    <nav id="navbar">
+        <div id="logo">
+        <img src="food7.png" alt="MyStreetmeal.com">
     </div>
-    <div class="card" id="card-2">
-        <h2>card2</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus blanditiis iusto fugit corrupti cum? Sunt nostrum fuga minus eligendi doloribus voluptas temporibus, deleniti sequi perferendis ut incidunt non voluptatum quisquam ullam sint recusandae quaerat!</p>
+    <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+        
+    </ul>
+    </nav>
+    <section id="home">
+        <h1 class="book">Welcome To MyStreetmeal</h1>
+    <div class="intro" style="border-style: groove; border-radius: 20px; border-color: brown;">
+        <pre><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita labore ratione blanditiis, laborum 
+            deserunt veritatis quidem dolorem ducimus, officia distinctio atque cupiditate. Officia itaque exercitationem 
+            numquam repellat facere minima laborum!</p></pre>
     </div>
-    <div class="card" id="card-3">
-        <h2>card3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus blanditiis iusto fugit corrupti cum? Sunt nostrum fuga minus eligendi doloribus voluptas temporibus, deleniti sequi perferendis ut incidunt non voluptatum quisquam ullam sint recusandae quaerat!</p>
-    </div>
-    </div>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="home1">
+        <h1 class="book1">Our Services</h1>
+        <div id="services">
+        <div class="box">
+            <img src="try.png" alt="">
+            <h2 class="book2">Food Ordering</h2>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sequi fuga ea ipsum ducimus consequatur, ullam repellat, amet commodi labore quisquam? Fugit, voluptatum quis.</p>
+        </div>       
+        <div class="box">
+            <img src="food5.png" alt="">
+            <h2 class="book2">Menu</h2>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sequi fuga ea ipsum ducimus consequatur, ullam repellat, amet commodi labore quisquam? Fugit, voluptatum quis.</p>
+        </div>       
+        <div class="box">
+            <img src="food6.png" alt="">
+            <h2 class="book2">Combo</h2>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A sequi fuga ea ipsum ducimus consequatur, ullam repellat, amet commodi labore quisquam? Fugit, voluptatum quis.</p>
+        </div>       
+        </div>
+        
+    </section>
+    <section id="client">
+        <h1 class="client1">Our Clients</h1>
+        <div id="client2">
+            <div class="items">
+                <img src="logo5.png" alt="">
+            </div>
+            <div class="items">
+                <img src="logo6.png" alt="">
+            </div>
+            <div class="items">
+                <img src="logo7.png" alt="">
+            </div>
+            <div class="items">
+                <img src="logo8.png" alt="">
+            </div>
+           
+           
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="contact1">Contact Us</h1>
+        <div id="CL">
+            <form action="">
+                <div class="form">
+                    <label for="name">Name: </label>
+                    <input type="text" name="text" id="name" placeholder="Enter Your Name">
+
+                </div>
+                <div class="form">
+                    <label for="name">Email: </label>
+                    <input type="email" name="text" id="name" placeholder="Enter Your email">
+
+                </div>
+                <div class="form">
+                    <label for="name">Phone: </label>
+                    <input type="Phone " name="text" id="name" placeholder="Enter Your Phone">
+
+                </div>
+                <div class="form">
+                    <label for="name">Report: </label>
+                    <textarea type="Issue" name="text" id="Report" cols="30" rows="30"> </textarea>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; www.MyStreetMeal.com. All rights reserved!
+    </footer>
 </body>
 </html>
